@@ -1,0 +1,7 @@
+<ul>
+    <li ng-repeat="item in list.catogery|filter: list.input">
+        {{item.short_name}}, {{item.name}}
+        <button ng-click="list.removeItem($index)">Don't want this one!</button>
+    </li>
+    <span ng-show="list.nothingFound">Nothing found</span>
+</ul>
