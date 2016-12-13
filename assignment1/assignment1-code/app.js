@@ -2,8 +2,8 @@
               'user strict';
               angular.module('MyFirstApp', [])
                   .controller('MyFirstController', MyController);
-              MyController.$inject = ['$scope'];
 
+              MyController.$inject = ['$scope'];
               function MyController($scope) {
                   $scope.name="";
                   $scope.Check = function () {

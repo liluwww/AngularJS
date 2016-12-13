@@ -67,6 +67,10 @@
             name: "shrimp",
             quantity: 12
         },
+        {
+          name: "avocado",
+          quantity:3
+        }
         ];
         service.boughtList = [];
         service.addItem = function (itemname, itemquantity, List) {

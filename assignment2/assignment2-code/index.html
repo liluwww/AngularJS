@@ -38,7 +38,7 @@
         <button ng-click="ToBuy.addItem()">Add to list</button>
         <ul>
             <li ng-repeat="item in ToBuy.shoppingList">
-                Buy {{item.quantity}}{{item.name}}
+                Buy {{item.quantity}} {{item.name}}(s)
                 <button class="btn btn-default" ng-click="ToBuy.removeItem($index)"><span class="glyphicon glyphicon-ok"></span> Bought</button>
             </li>
         </ul>
