@@ -73,7 +73,7 @@
         service.getMatchedMenuItems = function (searchTerm) {
             var response = $http({
                 method: 'GET',
-                url: ('http://davids-restaurant.herokuapp.com/categories.json')
+                url: ('https://davids-restaurant.herokuapp.com/categories.json')
             });
             return response;
         };
